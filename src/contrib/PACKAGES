@@ -1,7 +1,19 @@
-Package: drat
-Version: 0.0.4
-Suggests: git2r, knitr
-License: GPL (>= 2)
-MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
+Package: chromote
+Version: 0.0.0.9002
+Imports: jsonlite, websocket (>= 1.2.0), processx, R6,
+      later (>= 1.1.0), promises (>= 1.1.1), magrittr,
+      rlang, fastmap
+Suggests: showimage
+License: GPL-2
+MD5sum: 74022715c71746cbcfb535bc9d9b1cf4
 NeedsCompilation: no
 
+Package: webshot2
+Version: 0.0.0.9000
+Depends: R (>= 3.2)
+Imports: chromote (>= 0.0.0.9001), later, promises,
+      magrittr, callr
+Suggests: shiny, httpuv, rmarkdown
+License: GPL-2
+MD5sum: 5247caeaa3219bc26b548a1111fb8140
+NeedsCompilation: no
