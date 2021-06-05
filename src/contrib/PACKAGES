@@ -8,6 +8,16 @@ License: GPL-2
 MD5sum: 74022715c71746cbcfb535bc9d9b1cf4
 NeedsCompilation: no
 
+Package: chromote
+Version: 0.0.0.9003
+Imports: jsonlite, websocket (>= 1.2.0), processx, R6,
+      later (>= 1.1.0), promises (>= 1.1.1), magrittr,
+      rlang, fastmap
+Suggests: showimage
+License: GPL-2
+MD5sum: 4dcd5b223fdf137713a8c70199937bc4
+NeedsCompilation: no
+
 Package: webshot2
 Version: 0.0.0.9000
 Depends: R (>= 3.2)

@@ -2,4 +2,3 @@ Package: drat
 Version: 0.0.4
 Suggests: git2r, knitr
 License: GPL (>= 2)
-
