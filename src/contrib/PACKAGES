@@ -19,6 +19,16 @@ MD5sum: 4dcd5b223fdf137713a8c70199937bc4
 NeedsCompilation: no
 
 Package: webshot2
+Version: 0.0.0.9000.21
+Depends: R (>= 3.2)
+Imports: chromote (>= 0.0.0.9001), later, promises,
+      magrittr, callr
+Suggests: shiny, httpuv, rmarkdown
+License: GPL-2
+MD5sum: c5f9ae91b6bfc1a7869f92675dce2c64
+NeedsCompilation: no
+
+Package: webshot2
 Version: 0.0.0.9000
 Depends: R (>= 3.2)
 Imports: chromote (>= 0.0.0.9001), later, promises,
