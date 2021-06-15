@@ -15,7 +15,7 @@ Imports: jsonlite, websocket (>= 1.2.0), processx, R6,
       rlang, fastmap
 Suggests: showimage
 License: GPL-2
-MD5sum: 4dcd5b223fdf137713a8c70199937bc4
+MD5sum: 5cd83c16609920b80ba4388d1ad01b87
 NeedsCompilation: no
 
 Package: webshot2
